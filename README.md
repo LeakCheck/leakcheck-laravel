@@ -34,6 +34,6 @@ You can even use it with standard Laravel's password breach checker:
 
 \<lang>/validation.php
 
-    'leakcheck' => 'You can not use this password as it became a part of a breach'
+    'leakcheck' => 'You can not use this password as it was compromised'
 
 *This package licensed under MIT license. Laravel is a Trademark of Taylor Otwell.* 
