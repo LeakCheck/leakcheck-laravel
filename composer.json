@@ -1,0 +1,42 @@
+{
+    "name": "leakcheck/leakcheck-laravel",
+    "description": "Another secure way to check if your users` passwords have been breached",
+    "version": "0.1",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "leakcheck",
+        "password",
+        "databreach",
+        "breach",
+        "leak"
+    ],
+    "homepage": "https://leakcheck.net",
+    "authors": [
+        {
+            "name": "William Anderson",
+            "email": "william@leakcheck.net",
+            "homepage": "https://leakcheck.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeakCheck\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeakCheck\\LeakCheckServiceProvider"
+            ]
+        }
+    }
+}
