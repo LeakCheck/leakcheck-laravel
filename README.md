@@ -1,5 +1,13 @@
 # LeakCheck Laravel Integration
-![LeakCheck <3 Laravel](https://i.imgur.com/cUyDWGX.png)
+
+![LeakCheck <3 Laravel](https://i.imgur.com/B8DyH1y.png)
+<p align="center">
+<img alt="Discord" src="https://img.shields.io/discord/626798391162175528">
+<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dm/leakcheck/leakcheck-laravel">
+<img alt="Uptime Robot ratio (30 days)" src="https://img.shields.io/uptimerobot/ratio/m787582856-3411c8623fccb7e99d3dfc1f">
+<img alt="GitHub" src="https://img.shields.io/github/license/leakcheck/leakcheck-laravel">
+</p>
+
 Yet another secure way to check if your users` passwords became a part of a breach.
 Before sending a password to the server we hash it with SHA256 and truncate to 24 characters. 
 
